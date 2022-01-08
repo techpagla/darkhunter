@@ -1,6 +1,94 @@
-body{
-    /* font-family: 'Be Vietnam Pro', sans-serif; */
+body {
+    margin:0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+   
+}
+a {
+    text-decoration: none;
+}
+#first-section {
+    margin: 0px;
+    justify-content: center;
+
+}
+.flex {
+    display:flex;
+}
+.first-section-left{
+    margin-top: 100px;;
+}
+.vl {
+    border-left: 6px solid #00bcd4;
+    height: 114px;
+    position: relative;
+    top: 161px;
+    left: 90px;
+    border-radius: 10px;
+  }
+.half-width {
+    width:50%;
+    padding-left:100px;
 }
 h1 {
     font-size: 60px;
+}
+.orange {
+    color: green;
+}
+.half-width img {
+    width:70%;
+    
+}
+.button{
+    background-color: orange;
+    padding: 10px;
+}
+.text-center{
+    text-align: center;
+}
+ .content-center{
+    justify-content: center;
+}
+.goals {
+    width:300px;
+    height: 300px;
+    background-color: paleturquoise;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+.goals img{
+    width:100px;
+    height: 100px;
+}
+.goal-1{
+    background-color: #c5e1a5;
+}
+.goal-2{
+    background-color: #ffcdd2;
+}
+.goal-3{
+    background-color: #80deea;
+}
+#third-section {
+    margin-top:100px;
+    align-items: justify;
+}
+#forth-section {
+    margin-top: 45px;
+}
+
+.hacking-block {
+    display: flex;
+    justify-content: center;
+}
+.hacking-block img {
+    width: 70%;
+    border: 20px solid orange;
+}
+footer {
+    background-color: #424242;
+    color: white;
+    text-align: center;
 }
